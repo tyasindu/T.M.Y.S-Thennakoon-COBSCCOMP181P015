@@ -61,43 +61,52 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="NlS-bg-CBg">
-                                <rect key="frame" x="40" y="84" width="334" height="270.5"/>
+                                <rect key="frame" x="40" y="84" width="334" height="320.5"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IPx-Vg-WEZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="334" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="40"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VZN-nz-lQg">
-                                        <rect key="frame" x="0.0" y="50" width="334" height="30"/>
+                                        <rect key="frame" x="0.0" y="60" width="334" height="40"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0wu-IA-vSd">
-                                        <rect key="frame" x="0.0" y="100" width="334" height="30"/>
+                                        <rect key="frame" x="0.0" y="120" width="334" height="40"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GYA-VI-nWX">
-                                        <rect key="frame" x="0.0" y="150" width="334" height="30"/>
+                                        <rect key="frame" x="0.0" y="180" width="334" height="40"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxF-QH-HqC">
-                                        <rect key="frame" x="0.0" y="200" width="334" height="30"/>
+                                        <rect key="frame" x="0.0" y="240" width="334" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="wkA-jI-14W"/>
+                                        </constraints>
                                         <state key="normal" title="Sign Up"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogJ-kw-VIB">
-                                        <rect key="frame" x="0.0" y="250" width="334" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="300" width="334" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.13555603117366977" blue="0.12257065891204122" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="PxF-QH-HqC" firstAttribute="height" secondItem="IPx-Vg-WEZ" secondAttribute="height" id="Jyl-vW-Mu9"/>
+                                    <constraint firstItem="VZN-nz-lQg" firstAttribute="height" secondItem="IPx-Vg-WEZ" secondAttribute="height" id="fBm-k4-BgG"/>
+                                    <constraint firstItem="0wu-IA-vSd" firstAttribute="height" secondItem="IPx-Vg-WEZ" secondAttribute="height" id="p86-Us-cN7"/>
+                                    <constraint firstItem="GYA-VI-nWX" firstAttribute="height" secondItem="IPx-Vg-WEZ" secondAttribute="height" id="wo1-7p-Kss"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
