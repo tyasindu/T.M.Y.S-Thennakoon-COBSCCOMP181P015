@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AD5E0C938F314397DE8F64C692261B2 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9856FC1189B25A768DBCED6C6D007C /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-dummy.m */; };
+		10FEFB87C6B2F355CFC8DF26054DA52B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		42381501F2F7E69271F7B5DEABA36E69 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7114E82CC29679C5C9C62DA6B0000B58 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45B64E39CC372D45A714EFC17F6219A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6BB2343BB66C15C34CC249D29B261C66 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF230405012249FDA920E6BF9C999D0C /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-dummy.m */; };
+		8503902EF3700D49A9F5C95C30487714 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2410B443E2AF05EDC294CA6686CEC61D /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89B6EAECAE414B190234283E2FED8F67 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0DEA7D1909586725E151A806AF2424 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9D3B154DAE1EFC790B4C632A4DC1094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E9E37D337A92F65D9E3C5A3150675C55 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A490D331A5B35119FE49ABE18F824363 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		335E2104F8659D3531285D1ED7CAF27F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C3C1A0B05E7B3312ED9B4080B8358C2;
+			remoteInfo = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018AA006DB33780F9172702C2CAFCD3F /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-Info.plist"; sourceTree = "<group>"; };
+		018EED874429EAF1A30AA212BEE29D29 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		073C1ADFCCB0BDE80DF2E7DA6096E259 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-acknowledgements.plist"; sourceTree = "<group>"; };
+		076D80B67E9AAF6D03B01EA80F7A0B81 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E8F410EDB7710EE2338A3F599011E95 /* Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015Tests.framework; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2410B443E2AF05EDC294CA6686CEC61D /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-umbrella.h"; sourceTree = "<group>"; };
+		2E8D9536C8B430D281D870D10AA3B731 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B6698957F05F6294CD4A35C94744D4A /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests.release.xcconfig"; sourceTree = "<group>"; };
+		57BC41B68280273ECF425C2B5CF70F52 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015.modulemap"; sourceTree = "<group>"; };
+		6F4FFF07878F921719A767D7246E4CBD /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-Info.plist"; sourceTree = "<group>"; };
+		6F9856FC1189B25A768DBCED6C6D007C /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-dummy.m"; sourceTree = "<group>"; };
+		7114E82CC29679C5C9C62DA6B0000B58 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-umbrella.h"; sourceTree = "<group>"; };
+		73F2AA0A4CE334E571A9F7976C8DD0E0 /* Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015.framework; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A6C0300D91B2AF069A2E9863902A52 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B21201FDD5B77BC7F93C9C49BA16BDF /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7C2DAD1463EB93376BCDF36CEA740CC8 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F777E0AB940D72F76EF0D1FCF5443F9 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests.modulemap"; sourceTree = "<group>"; };
+		8B65CE6DE5DE73B0397E907BF178A8CB /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		945CAF34BF08BBB2CEA9016BFE5E3C00 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A490D331A5B35119FE49ABE18F824363 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-dummy.m"; sourceTree = "<group>"; };
+		C131D052F1D190E9ADAFD9143552CBA3 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8FA9ECC372A163A8A9FAC2139DF7DFC /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015.release.xcconfig"; sourceTree = "<group>"; };
+		CF0DEA7D1909586725E151A806AF2424 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-umbrella.h"; sourceTree = "<group>"; };
+		CF230405012249FDA920E6BF9C999D0C /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-dummy.m"; sourceTree = "<group>"; };
+		DD7152C9895ED049696052517F509B32 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E596AF65F9933CB0CD2AB74545E6BE0A /* Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015_T_M_Y_S_Thennakoon_COBSCCOMP181P015UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015_T_M_Y_S_Thennakoon_COBSCCOMP181P015UITests.framework; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4019CE8761EC1B791C3AF5D6126F3B /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FD4547F6392FDECD54945F5E0C2458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FEFB87C6B2F355CFC8DF26054DA52B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0733424761B7DF382B443B95E7A1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D3B154DAE1EFC790B4C632A4DC1094 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB39C5730DD986CAA314760DBBF3784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B64E39CC372D45A714EFC17F6219A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		382FF3131F7177FD3949409E19ABF70F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94F8E5D17FDDBC00B5DD547E7549A660 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015 */,
+				4C0B2F4107DA2741EF77E66D5B3245CF /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests */,
+				8A70D411470A7F0A9744259BBE2EB6E0 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4C0B2F4107DA2741EF77E66D5B3245CF /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests */ = {
+			isa = PBXGroup;
+			children = (
+				945CAF34BF08BBB2CEA9016BFE5E3C00 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests.modulemap */,
+				7C2DAD1463EB93376BCDF36CEA740CC8 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-acknowledgements.markdown */,
+				076D80B67E9AAF6D03B01EA80F7A0B81 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-acknowledgements.plist */,
+				A490D331A5B35119FE49ABE18F824363 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-dummy.m */,
+				2E8D9536C8B430D281D870D10AA3B731 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-Info.plist */,
+				CF0DEA7D1909586725E151A806AF2424 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-umbrella.h */,
+				DD7152C9895ED049696052517F509B32 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests.debug.xcconfig */,
+				7B21201FDD5B77BC7F93C9C49BA16BDF /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests.release.xcconfig */,
+			);
+			name = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests";
+			path = "Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests";
+			sourceTree = "<group>";
+		};
+		612A3B99D8C3B81F1B3FF6429992C25E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73F2AA0A4CE334E571A9F7976C8DD0E0 /* Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015.framework */,
+				E596AF65F9933CB0CD2AB74545E6BE0A /* Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015_T_M_Y_S_Thennakoon_COBSCCOMP181P015UITests.framework */,
+				1E8F410EDB7710EE2338A3F599011E95 /* Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A70D411470A7F0A9744259BBE2EB6E0 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F777E0AB940D72F76EF0D1FCF5443F9 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests.modulemap */,
+				8B65CE6DE5DE73B0397E907BF178A8CB /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-acknowledgements.markdown */,
+				018EED874429EAF1A30AA212BEE29D29 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-acknowledgements.plist */,
+				6F9856FC1189B25A768DBCED6C6D007C /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-dummy.m */,
+				6F4FFF07878F921719A767D7246E4CBD /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-Info.plist */,
+				7114E82CC29679C5C9C62DA6B0000B58 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-umbrella.h */,
+				C131D052F1D190E9ADAFD9143552CBA3 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests.debug.xcconfig */,
+				3B6698957F05F6294CD4A35C94744D4A /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests.release.xcconfig */,
+			);
+			name = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests";
+			path = "Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests";
+			sourceTree = "<group>";
+		};
+		94F8E5D17FDDBC00B5DD547E7549A660 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015 */ = {
+			isa = PBXGroup;
+			children = (
+				57BC41B68280273ECF425C2B5CF70F52 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015.modulemap */,
+				77A6C0300D91B2AF069A2E9863902A52 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-acknowledgements.markdown */,
+				073C1ADFCCB0BDE80DF2E7DA6096E259 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-acknowledgements.plist */,
+				CF230405012249FDA920E6BF9C999D0C /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-dummy.m */,
+				018AA006DB33780F9172702C2CAFCD3F /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-Info.plist */,
+				2410B443E2AF05EDC294CA6686CEC61D /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-umbrella.h */,
+				ED4019CE8761EC1B791C3AF5D6126F3B /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015.debug.xcconfig */,
+				C8FA9ECC372A163A8A9FAC2139DF7DFC /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015.release.xcconfig */,
+			);
+			name = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015";
+			path = "Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				612A3B99D8C3B81F1B3FF6429992C25E /* Products */,
+				382FF3131F7177FD3949409E19ABF70F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		51FDC1D431E625D3D0C6311D95F11E76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42381501F2F7E69271F7B5DEABA36E69 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C0C5B4B8D0C7DDE69BAAC53DB1D6D2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B6EAECAE414B190234283E2FED8F67 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9C1407B6C935345D3814EC677D8CDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8503902EF3700D49A9F5C95C30487714 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C3C1A0B05E7B3312ED9B4080B8358C2 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB51A6D7AEAE918D7391A3D78A15C4E4 /* Build configuration list for PBXNativeTarget "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015" */;
+			buildPhases = (
+				AF9C1407B6C935345D3814EC677D8CDA /* Headers */,
+				CAAD3D3FAC39C73F214FE9E57F51D6A4 /* Sources */,
+				ECB39C5730DD986CAA314760DBBF3784 /* Frameworks */,
+				5197BD0D811F1B6801B18D615D5BFC60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015";
+			productName = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015";
+			productReference = 73F2AA0A4CE334E571A9F7976C8DD0E0 /* Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FDAB876156CB84C5BABE3B198B3DE0A /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C7FF81A42D55421A5B28E069CBC593 /* Build configuration list for PBXNativeTarget "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests" */;
+			buildPhases = (
+				51FDC1D431E625D3D0C6311D95F11E76 /* Headers */,
+				04904CAA6D73FC3FB548261EE1C33C4F /* Sources */,
+				04FD4547F6392FDECD54945F5E0C2458 /* Frameworks */,
+				3C0E551675E6A949484C5BEF11EF541F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests";
+			productName = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests";
+			productReference = E596AF65F9933CB0CD2AB74545E6BE0A /* Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015_T_M_Y_S_Thennakoon_COBSCCOMP181P015UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D38F459058C941764FA59148DF2E0E0 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3168B821AA941A3FCA6DCBFF93326547 /* Build configuration list for PBXNativeTarget "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests" */;
+			buildPhases = (
+				7C0C5B4B8D0C7DDE69BAAC53DB1D6D2A /* Headers */,
+				7AB390D5A75851F012F9631987177B17 /* Sources */,
+				1F0733424761B7DF382B443B95E7A1B3 /* Frameworks */,
+				CDA2F3E8F90A1D9B6B39C05CB27C3A22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9214C7915B48A34B3A667DB27B1FB0D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests";
+			productName = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests";
+			productReference = 1E8F410EDB7710EE2338A3F599011E95 /* Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 612A3B99D8C3B81F1B3FF6429992C25E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C3C1A0B05E7B3312ED9B4080B8358C2 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015 */,
+				3FDAB876156CB84C5BABE3B198B3DE0A /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests */,
+				5D38F459058C941764FA59148DF2E0E0 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C0E551675E6A949484C5BEF11EF541F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5197BD0D811F1B6801B18D615D5BFC60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA2F3E8F90A1D9B6B39C05CB27C3A22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04904CAA6D73FC3FB548261EE1C33C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD5E0C938F314397DE8F64C692261B2 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB390D5A75851F012F9631987177B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E37D337A92F65D9E3C5A3150675C55 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAAD3D3FAC39C73F214FE9E57F51D6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB2343BB66C15C34CC249D29B261C66 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9214C7915B48A34B3A667DB27B1FB0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015";
+			target = 1C3C1A0B05E7B3312ED9B4080B8358C2 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015 */;
+			targetProxy = 335E2104F8659D3531285D1ED7CAF27F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D4CCA692559DD274F85307E3FB1816A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6698957F05F6294CD4A35C94744D4A /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		64ED95378D8926363D133C9119097A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8FA9ECC372A163A8A9FAC2139DF7DFC /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		723394763EAE62841D761529A67DE716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7152C9895ED049696052517F509B32 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D21AC92831B8A4BB1813B6792559ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B21201FDD5B77BC7F93C9C49BA16BDF /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D2143196370C9074A6A539D1D5A358C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C131D052F1D190E9ADAFD9143552CBA3 /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E20C4A3AE5CC7202E5A9980F3912BD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4019CE8761EC1B791C3AF5D6126F3B /* Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12C7FF81A42D55421A5B28E069CBC593 /* Build configuration list for PBXNativeTarget "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2143196370C9074A6A539D1D5A358C0 /* Debug */,
+				1D4CCA692559DD274F85307E3FB1816A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3168B821AA941A3FCA6DCBFF93326547 /* Build configuration list for PBXNativeTarget "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723394763EAE62841D761529A67DE716 /* Debug */,
+				8D21AC92831B8A4BB1813B6792559ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB51A6D7AEAE918D7391A3D78A15C4E4 /* Build configuration list for PBXNativeTarget "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20C4A3AE5CC7202E5A9980F3912BD59 /* Debug */,
+				64ED95378D8926363D133C9119097A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

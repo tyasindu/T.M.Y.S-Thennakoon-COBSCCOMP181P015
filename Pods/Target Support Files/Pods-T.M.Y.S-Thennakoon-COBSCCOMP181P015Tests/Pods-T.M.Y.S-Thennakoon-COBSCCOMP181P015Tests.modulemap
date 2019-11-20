@@ -1,0 +1,6 @@
+framework module Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015Tests {
+  umbrella header "Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
