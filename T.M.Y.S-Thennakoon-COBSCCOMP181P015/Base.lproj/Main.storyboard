@@ -327,6 +327,9 @@
                                             <constraint firstAttribute="height" constant="50" id="h3i-UB-qml"/>
                                         </constraints>
                                         <state key="normal" title="Upload Image"/>
+                                        <connections>
+                                            <action selector="uploadImage:" destination="yyC-1W-YHp" eventType="touchUpInside" id="OxH-HX-jII"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zc-Us-VGT">
                                         <rect key="frame" x="0.0" y="605" width="334" height="50"/>
@@ -334,6 +337,9 @@
                                             <constraint firstAttribute="height" constant="50" id="Lkb-97-X6z"/>
                                         </constraints>
                                         <state key="normal" title="Save Post"/>
+                                        <connections>
+                                            <action selector="savePost:" destination="yyC-1W-YHp" eventType="touchUpInside" id="xic-vN-lFz"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -347,6 +353,14 @@
                         <viewLayoutGuide key="safeArea" id="ANI-Gu-rvr"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Add Post" id="Fq1-iB-T34"/>
+                    <connections>
+                        <outlet property="postContentTextView" destination="Hz4-8f-Ut3" id="oOE-25-aD7"/>
+                        <outlet property="postImage" destination="e8p-YP-RD8" id="mqa-d3-djL"/>
+                        <outlet property="postSaveButton" destination="6zc-Us-VGT" id="a7J-GJ-rRz"/>
+                        <outlet property="postTitleTextField" destination="CHx-Eh-6jJ" id="ZeD-mt-4Qe"/>
+                        <outlet property="uploadImageButton" destination="0Sq-JK-ygM" id="0aN-lJ-jed"/>
+                        <outlet property="usenameTextField" destination="gI7-i1-QJ2" id="dJD-1N-LYI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PTk-ZK-5Lz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -359,14 +373,36 @@
                     <view key="view" contentMode="scaleToFill" id="WmA-Bw-Dsc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Chf-YV-rCM">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="327" id="9i5-CF-ktq">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="327"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9i5-CF-ktq" id="mvS-TX-mwY">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="326.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Chf-YV-rCM" firstAttribute="leading" secondItem="XOl-mO-Hyv" secondAttribute="leading" id="9c9-OW-3m4"/>
+                            <constraint firstItem="XOl-mO-Hyv" firstAttribute="trailing" secondItem="Chf-YV-rCM" secondAttribute="trailing" id="Caq-0o-ugJ"/>
+                            <constraint firstItem="XOl-mO-Hyv" firstAttribute="bottom" secondItem="Chf-YV-rCM" secondAttribute="bottom" id="QKD-ZT-7nF"/>
+                            <constraint firstItem="Chf-YV-rCM" firstAttribute="top" secondItem="XOl-mO-Hyv" secondAttribute="top" id="fXq-gf-bIc"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="XOl-mO-Hyv"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="KkH-gb-2eR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zv3-BF-Vb6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4687" y="391"/>
+            <point key="canvasLocation" x="4686.9565217391309" y="390.40178571428572"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="ZVe-x4-mcW">

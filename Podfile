@@ -10,7 +10,10 @@ target 'T.M.Y.S-Thennakoon-COBSCCOMP181P015' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
   pod 'Firebase/Core'
-	pod 'Firebase/Firestore'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
+  pod 'Nuke', '~> 7.0'
 
   target 'T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests' do
     inherit! :search_paths
