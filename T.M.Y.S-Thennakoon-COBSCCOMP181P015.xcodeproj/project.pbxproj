@@ -12,9 +12,10 @@
 		8493B2028FDD3FE866957FE7 /* Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EEA0976154894DE462BFFB /* Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015.framework */; };
 		FA11EA1223867EE90038AB63 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA11EA1123867EE90038AB63 /* Constants.swift */; };
 		FA11EA162386A1020038AB63 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA11EA152386A1020038AB63 /* ResetPasswordViewController.swift */; };
+		FA4C7B1A2386C4360053F553 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C7B192386C4360053F553 /* AddPostViewController.swift */; };
+		FA4C7B1C2386CCFE0053F553 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C7B1B2386CCFE0053F553 /* HomeViewController.swift */; };
 		FA53C60B2385C4D100E78AA8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53C60A2385C4D100E78AA8 /* SignUpViewController.swift */; };
 		FA53C60D2385C4EE00E78AA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53C60C2385C4EE00E78AA8 /* LoginViewController.swift */; };
-		FA53C60F2385C50800E78AA8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53C60E2385C50800E78AA8 /* HomeViewController.swift */; };
 		FA53C6122386357200E78AA8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53C6112386357200E78AA8 /* Utilities.swift */; };
 		FA53C6152386598900E78AA8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA53C6142386598900E78AA8 /* GoogleService-Info.plist */; };
 		FAE31BE723853EB400AC1282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE31BE623853EB400AC1282 /* AppDelegate.swift */; };
@@ -55,9 +56,10 @@
 		E7EEA0976154894DE462BFFB /* Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T_M_Y_S_Thennakoon_COBSCCOMP181P015.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA11EA1123867EE90038AB63 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FA11EA152386A1020038AB63 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		FA4C7B192386C4360053F553 /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		FA4C7B1B2386CCFE0053F553 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FA53C60A2385C4D100E78AA8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		FA53C60C2385C4EE00E78AA8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		FA53C60E2385C50800E78AA8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FA53C6112386357200E78AA8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		FA53C6142386598900E78AA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FAE31BE323853EB400AC1282 /* T.M.Y.S-Thennakoon-COBSCCOMP181P015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T.M.Y.S-Thennakoon-COBSCCOMP181P015.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,10 +132,11 @@
 			isa = PBXGroup;
 			children = (
 				FAE31BE823853EB400AC1282 /* ViewController.swift */,
-				FA53C60E2385C50800E78AA8 /* HomeViewController.swift */,
 				FA53C60A2385C4D100E78AA8 /* SignUpViewController.swift */,
 				FA53C60C2385C4EE00E78AA8 /* LoginViewController.swift */,
 				FA11EA152386A1020038AB63 /* ResetPasswordViewController.swift */,
+				FA4C7B192386C4360053F553 /* AddPostViewController.swift */,
+				FA4C7B1B2386CCFE0053F553 /* HomeViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -443,10 +446,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA53C6122386357200E78AA8 /* Utilities.swift in Sources */,
-				FA53C60F2385C50800E78AA8 /* HomeViewController.swift in Sources */,
+				FA4C7B1A2386C4360053F553 /* AddPostViewController.swift in Sources */,
 				FA53C60D2385C4EE00E78AA8 /* LoginViewController.swift in Sources */,
 				FA11EA162386A1020038AB63 /* ResetPasswordViewController.swift in Sources */,
 				FA53C60B2385C4D100E78AA8 /* SignUpViewController.swift in Sources */,
+				FA4C7B1C2386CCFE0053F553 /* HomeViewController.swift in Sources */,
 				FA11EA1223867EE90038AB63 /* Constants.swift in Sources */,
 				FAE31BE923853EB400AC1282 /* ViewController.swift in Sources */,
 				FAE31BE723853EB400AC1282 /* AppDelegate.swift in Sources */,

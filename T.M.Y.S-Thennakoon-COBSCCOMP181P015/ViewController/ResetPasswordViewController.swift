@@ -61,7 +61,6 @@ class ResetPasswordViewController: UIViewController {
                     return
                 }
                 
-                //alert(message: "A password reset email has been sent to your account")
                 // create the alert
                 let alert = UIAlertController(title: "Notification", message: "A password reset email has been sent to your account.", preferredStyle: UIAlertController.Style.alert)
                 // add an action (button)

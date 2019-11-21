@@ -141,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dXp-RT-b4X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1606" y="384"/>
+            <point key="canvasLocation" x="1732" y="384"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="rnZ-r3-Ego">
@@ -217,7 +217,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RUE-fZ-RGg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1606" y="1110"/>
+            <point key="canvasLocation" x="1733" y="1110"/>
         </scene>
         <!--Reset Password View Controller-->
         <scene sceneID="CUl-0e-u5K">
@@ -275,34 +275,116 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yio-ee-Fk6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2332" y="1446"/>
+            <point key="canvasLocation" x="2483" y="1110"/>
         </scene>
-        <!--Home View Controller-->
-        <scene sceneID="5eZ-SN-Owh">
+        <!--Add Post-->
+        <scene sceneID="jGG-LW-mib">
             <objects>
-                <viewController storyboardIdentifier="HomeVC" id="nmI-y4-uJw" customClass="HomeViewController" customModule="T_M_Y_S_Thennakoon_COBSCCOMP181P015" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ocy-Ey-VdA">
+                <viewController id="yyC-1W-YHp" customClass="AddPostViewController" customModule="T_M_Y_S_Thennakoon_COBSCCOMP181P015" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vg9-ng-Bpz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZEf-pC-wGD">
-                                <rect key="frame" x="168" y="430" width="78" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="gRj-ii-dk7">
+                                <rect key="frame" x="40" y="84" width="334" height="655"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tiitle" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CHx-Eh-6jJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="qg9-mi-cdS"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gI7-i1-QJ2">
+                                        <rect key="frame" x="0.0" y="75" width="334" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="1Cn-v2-T9b"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Lorem ipsum dolor sit er elit " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Hz4-8f-Ut3">
+                                        <rect key="frame" x="0.0" y="150" width="334" height="130"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="130" id="7BD-06-rcY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e8p-YP-RD8">
+                                        <rect key="frame" x="0.0" y="305" width="334" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="F4X-Ax-ANh"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Sq-JK-ygM">
+                                        <rect key="frame" x="0.0" y="530" width="334" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="h3i-UB-qml"/>
+                                        </constraints>
+                                        <state key="normal" title="Upload Image"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zc-Us-VGT">
+                                        <rect key="frame" x="0.0" y="605" width="334" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Lkb-97-X6z"/>
+                                        </constraints>
+                                        <state key="normal" title="Save Post"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ZEf-pC-wGD" firstAttribute="centerY" secondItem="Ocy-Ey-VdA" secondAttribute="centerY" id="38X-7T-OFH"/>
-                            <constraint firstItem="ZEf-pC-wGD" firstAttribute="centerX" secondItem="Ocy-Ey-VdA" secondAttribute="centerX" id="Hpy-Ho-dq6"/>
+                            <constraint firstItem="gRj-ii-dk7" firstAttribute="top" secondItem="ANI-Gu-rvr" secondAttribute="top" constant="40" id="8W8-2X-cHZ"/>
+                            <constraint firstItem="gRj-ii-dk7" firstAttribute="leading" secondItem="ANI-Gu-rvr" secondAttribute="leading" constant="40" id="DcJ-fO-rgZ"/>
+                            <constraint firstItem="ANI-Gu-rvr" firstAttribute="trailing" secondItem="gRj-ii-dk7" secondAttribute="trailing" constant="40" id="YJ3-yx-6pV"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ue6-Az-pX5"/>
+                        <viewLayoutGuide key="safeArea" id="ANI-Gu-rvr"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Add Post" id="Fq1-iB-T34"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OTX-SY-QSh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PTk-ZK-5Lz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2333" y="789"/>
+            <point key="canvasLocation" x="4686.9565217391309" y="1038.6160714285713"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="3UU-ie-DXt">
+            <objects>
+                <viewController id="1o4-sc-jtS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WmA-Bw-Dsc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="XOl-mO-Hyv"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="KkH-gb-2eR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zv3-BF-Vb6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4687" y="391"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="ZVe-x4-mcW">
+            <objects>
+                <tabBarController storyboardIdentifier="HomeVC" id="Swn-SP-F4D" customClass="HomeViewController" customModule="T_M_Y_S_Thennakoon_COBSCCOMP181P015" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FKK-iK-4Gx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="1o4-sc-jtS" kind="relationship" relationship="viewControllers" id="jRb-Sr-JZw"/>
+                        <segue destination="yyC-1W-YHp" kind="relationship" relationship="viewControllers" id="TGX-Cq-IHI"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aW5-63-uBo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3768" y="715"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PTV-s4-0YJ">
