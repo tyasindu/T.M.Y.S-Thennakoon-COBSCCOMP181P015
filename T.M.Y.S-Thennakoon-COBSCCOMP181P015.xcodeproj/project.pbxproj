@@ -13,6 +13,8 @@
 		FA53C60B2385C4D100E78AA8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53C60A2385C4D100E78AA8 /* SignUpViewController.swift */; };
 		FA53C60D2385C4EE00E78AA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53C60C2385C4EE00E78AA8 /* LoginViewController.swift */; };
 		FA53C60F2385C50800E78AA8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53C60E2385C50800E78AA8 /* HomeViewController.swift */; };
+		FA53C6122386357200E78AA8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53C6112386357200E78AA8 /* Utilities.swift */; };
+		FA53C6152386598900E78AA8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA53C6142386598900E78AA8 /* GoogleService-Info.plist */; };
 		FAE31BE723853EB400AC1282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE31BE623853EB400AC1282 /* AppDelegate.swift */; };
 		FAE31BE923853EB400AC1282 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE31BE823853EB400AC1282 /* ViewController.swift */; };
 		FAE31BEC23853EB400AC1282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE31BEA23853EB400AC1282 /* Main.storyboard */; };
@@ -52,6 +54,8 @@
 		FA53C60A2385C4D100E78AA8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		FA53C60C2385C4EE00E78AA8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FA53C60E2385C50800E78AA8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FA53C6112386357200E78AA8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		FA53C6142386598900E78AA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FAE31BE323853EB400AC1282 /* T.M.Y.S-Thennakoon-COBSCCOMP181P015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T.M.Y.S-Thennakoon-COBSCCOMP181P015.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE31BE623853EB400AC1282 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE31BE823853EB400AC1282 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +133,14 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		FA53C6132386359D00E78AA8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FA53C6112386357200E78AA8 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		FAE31BDA23853EB300AC1282 = {
 			isa = PBXGroup;
 			children = (
@@ -155,10 +167,12 @@
 			isa = PBXGroup;
 			children = (
 				FAE31BE623853EB400AC1282 /* AppDelegate.swift */,
+				FA53C6132386359D00E78AA8 /* Utilities */,
 				FA53C6102385C51B00E78AA8 /* ViewController */,
 				FAE31BEA23853EB400AC1282 /* Main.storyboard */,
 				FAE31BED23853EB600AC1282 /* Assets.xcassets */,
 				FAE31BEF23853EB600AC1282 /* LaunchScreen.storyboard */,
+				FA53C6142386598900E78AA8 /* GoogleService-Info.plist */,
 				FAE31BF223853EB600AC1282 /* Info.plist */,
 			);
 			path = "T.M.Y.S-Thennakoon-COBSCCOMP181P015";
@@ -193,6 +207,7 @@
 				FAE31BDF23853EB300AC1282 /* Sources */,
 				FAE31BE023853EB300AC1282 /* Frameworks */,
 				FAE31BE123853EB300AC1282 /* Resources */,
+				5A275000796D3B6E5DB9345D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +245,7 @@
 				FAE31BFE23853EB600AC1282 /* Sources */,
 				FAE31BFF23853EB600AC1282 /* Frameworks */,
 				FAE31C0023853EB600AC1282 /* Resources */,
+				B047F5D4DC29DFDB40DDCEFB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE31BF123853EB600AC1282 /* LaunchScreen.storyboard in Resources */,
+				FA53C6152386598900E78AA8 /* GoogleService-Info.plist in Resources */,
 				FAE31BEE23853EB600AC1282 /* Assets.xcassets in Resources */,
 				FAE31BEC23853EB400AC1282 /* Main.storyboard in Resources */,
 			);
@@ -356,6 +373,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5A275000796D3B6E5DB9345D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		990FCA2418FC968F606161A2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,6 +412,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B047F5D4DC29DFDB40DDCEFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests/Pods-T.M.Y.S-Thennakoon-COBSCCOMP181P015-T.M.Y.S-Thennakoon-COBSCCOMP181P015UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -385,6 +436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA53C6122386357200E78AA8 /* Utilities.swift in Sources */,
 				FA53C60F2385C50800E78AA8 /* HomeViewController.swift in Sources */,
 				FA53C60D2385C4EE00E78AA8 /* LoginViewController.swift in Sources */,
 				FA53C60B2385C4D100E78AA8 /* SignUpViewController.swift in Sources */,
