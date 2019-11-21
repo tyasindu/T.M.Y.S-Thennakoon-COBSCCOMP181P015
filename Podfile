@@ -8,6 +8,9 @@ target 'T.M.Y.S-Thennakoon-COBSCCOMP181P015' do
   # Pods for T.M.Y.S-Thennakoon-COBSCCOMP181P015
 
   pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Core'
+	pod 'Firebase/Firestore'
 
   target 'T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests' do
     inherit! :search_paths
