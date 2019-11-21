@@ -14,6 +14,10 @@
 		FA11EA162386A1020038AB63 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA11EA152386A1020038AB63 /* ResetPasswordViewController.swift */; };
 		FA4C7B1A2386C4360053F553 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C7B192386C4360053F553 /* AddPostViewController.swift */; };
 		FA4C7B1C2386CCFE0053F553 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C7B1B2386CCFE0053F553 /* HomeViewController.swift */; };
+		FA4C7B2E238718450053F553 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C7B2D238718450053F553 /* PostModel.swift */; };
+		FA4C7B31238718C00053F553 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C7B30238718C00053F553 /* PostTableViewCell.swift */; };
+		FA4C7B3523871BA10053F553 /* HomePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C7B3423871BA10053F553 /* HomePostViewController.swift */; };
+		FA4C7B3723874DE90053F553 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C7B3623874DE90053F553 /* ProfileViewController.swift */; };
 		FA53C60B2385C4D100E78AA8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53C60A2385C4D100E78AA8 /* SignUpViewController.swift */; };
 		FA53C60D2385C4EE00E78AA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53C60C2385C4EE00E78AA8 /* LoginViewController.swift */; };
 		FA53C6122386357200E78AA8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53C6112386357200E78AA8 /* Utilities.swift */; };
@@ -58,6 +62,10 @@
 		FA11EA152386A1020038AB63 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		FA4C7B192386C4360053F553 /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
 		FA4C7B1B2386CCFE0053F553 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FA4C7B2D238718450053F553 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		FA4C7B30238718C00053F553 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		FA4C7B3423871BA10053F553 /* HomePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePostViewController.swift; sourceTree = "<group>"; };
+		FA4C7B3623874DE90053F553 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FA53C60A2385C4D100E78AA8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		FA53C60C2385C4EE00E78AA8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FA53C6112386357200E78AA8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -128,6 +136,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA4C7B2F238718630053F553 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA4C7B2D238718450053F553 /* PostModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA4C7B33238718DD0053F553 /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				FA4C7B30238718C00053F553 /* PostTableViewCell.swift */,
+			);
+			path = CellView;
+			sourceTree = "<group>";
+		};
 		FA53C6102385C51B00E78AA8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +161,8 @@
 				FA11EA152386A1020038AB63 /* ResetPasswordViewController.swift */,
 				FA4C7B192386C4360053F553 /* AddPostViewController.swift */,
 				FA4C7B1B2386CCFE0053F553 /* HomeViewController.swift */,
+				FA4C7B3423871BA10053F553 /* HomePostViewController.swift */,
+				FA4C7B3623874DE90053F553 /* ProfileViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -176,6 +202,8 @@
 			isa = PBXGroup;
 			children = (
 				FAE31BE623853EB400AC1282 /* AppDelegate.swift */,
+				FA4C7B2F238718630053F553 /* Models */,
+				FA4C7B33238718DD0053F553 /* CellView */,
 				FA53C6132386359D00E78AA8 /* Utilities */,
 				FA53C6102385C51B00E78AA8 /* ViewController */,
 				FAE31BEA23853EB400AC1282 /* Main.storyboard */,
@@ -445,13 +473,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4C7B31238718C00053F553 /* PostTableViewCell.swift in Sources */,
+				FA4C7B3523871BA10053F553 /* HomePostViewController.swift in Sources */,
 				FA53C6122386357200E78AA8 /* Utilities.swift in Sources */,
+				FA4C7B2E238718450053F553 /* PostModel.swift in Sources */,
 				FA4C7B1A2386C4360053F553 /* AddPostViewController.swift in Sources */,
 				FA53C60D2385C4EE00E78AA8 /* LoginViewController.swift in Sources */,
 				FA11EA162386A1020038AB63 /* ResetPasswordViewController.swift in Sources */,
 				FA53C60B2385C4D100E78AA8 /* SignUpViewController.swift in Sources */,
 				FA4C7B1C2386CCFE0053F553 /* HomeViewController.swift in Sources */,
 				FA11EA1223867EE90038AB63 /* Constants.swift in Sources */,
+				FA4C7B3723874DE90053F553 /* ProfileViewController.swift in Sources */,
 				FAE31BE923853EB400AC1282 /* ViewController.swift in Sources */,
 				FAE31BE723853EB400AC1282 /* AppDelegate.swift in Sources */,
 			);
