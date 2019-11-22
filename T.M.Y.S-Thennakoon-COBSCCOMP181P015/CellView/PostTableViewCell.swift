@@ -66,14 +66,9 @@ class PostTableViewCell: UITableViewCell {
                 }
         }
         
-        
-        
-        
-        
         let imgUrl = URL(string: post.image_url)
         
         Nuke.loadImage(with: imgUrl!, into: postImage)
-        //Nuke.loadImage(with: imgUrl!, into: userImage)
         
     }
 //    override func setSelected(_ selected: Bool, animated: Bool) {

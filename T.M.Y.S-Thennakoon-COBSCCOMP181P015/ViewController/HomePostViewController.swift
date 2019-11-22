@@ -19,7 +19,6 @@ class HomePostViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
         
         tableview.dataSource = self
         tableview.delegate = self
@@ -70,7 +69,7 @@ extension HomePostViewController: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "friendCell", for: indexPath) as! PostTableViewCell
-        
+        cell.delegate = self
         cell.selectionStyle = .none
         let post: PostModel = postsList[indexPath.row]
         cell.singlePost = post
@@ -96,6 +95,10 @@ extension HomePostViewController: UITableViewDataSource, UITableViewDelegate{
 extension HomePostViewController: PostTableCellDelegate {
     func openPostView(post: PostModel) {
         // Navigate to the Post View
+        let postViewController = storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.postViewController) as? PostViewController
+        postViewController?.post = post
+        view.window?.rootViewController = postViewController
+        view.window?.makeKeyAndVisible()
         
     }
 }

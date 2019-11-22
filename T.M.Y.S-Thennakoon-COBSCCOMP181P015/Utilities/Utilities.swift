@@ -46,6 +46,23 @@ class Utilities {
         button.tintColor = UIColor.black
     }
     
+    static func styleTextView(_ textView:UITextView) {
+        textView.layer.borderWidth = 1
+        //textView.layer.borderColor = UIColor.red.cgColor
+        textView.layer.borderColor = UIColor.init(red: 48/255, green: 173/255, blue: 99/255, alpha: 1).cgColor
+    }
+    
+    static func styleImageView(_ imageView:UIImageView) {
+        
+        // Hollow rounded corner style
+        imageView.layer.cornerRadius = (imageView.frame.size.width ) / 2
+        imageView.clipsToBounds = true
+        imageView.layer.borderWidth = 3.0
+        imageView.layer.borderColor = UIColor.white.cgColor
+    }
+    
+    
+    
     static func isPasswordValid(_ password : String) -> Bool {
         
         let passwordTest = NSPredicate(format: "SELF MATCHES %@", "^(?=.*[a-z])(?=.*[$@$#!%*?&])[A-Za-z\\d$@$#!%*?&]{8,}")

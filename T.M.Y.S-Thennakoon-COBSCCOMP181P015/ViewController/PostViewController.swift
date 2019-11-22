@@ -7,28 +7,30 @@
 //
 
 import UIKit
+import Nuke
 
 
 class PostViewController: UIViewController {
     
     var post: PostModel?
     
+    @IBOutlet weak var postImage: UIImageView!
+    @IBOutlet weak var postTitle: UILabel!
+    @IBOutlet weak var postContent: UITextView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        postTitle.text = post?.title
+        postContent.text = post?.description
+        let imgUrl = URL(string: post!.image_url)
+        
+        Nuke.loadImage(with: imgUrl!, into: postImage)
 
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
+    
 }
 

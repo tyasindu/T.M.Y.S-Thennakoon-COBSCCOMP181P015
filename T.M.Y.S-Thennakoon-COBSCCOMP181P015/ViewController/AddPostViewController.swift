@@ -27,12 +27,24 @@ class AddPostViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setUpElements()
         imagePicker = UIImagePickerController()
         imagePicker.allowsEditing = true
         imagePicker.sourceType = .photoLibrary
         imagePicker.delegate = self
         postImage.isUserInteractionEnabled = true
     }
+    
+    func setUpElements(){
+        //Style the elements
+        Utilities.styleTextField(postTitleTextField)
+        Utilities.styleTextField(usenameTextField)
+        Utilities.styleFilledButton(postSaveButton)
+        Utilities.styleTextView(postContentTextView)
+        
+    }
+    
+    
     
     
     @IBAction func uploadImage(_ sender: Any) {
