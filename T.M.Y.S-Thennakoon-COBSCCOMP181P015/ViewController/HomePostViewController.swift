@@ -72,7 +72,8 @@ extension HomePostViewController: UITableViewDataSource, UITableViewDelegate{
         let cell = tableView.dequeueReusableCell(withIdentifier: "friendCell", for: indexPath) as! PostTableViewCell
         
         cell.selectionStyle = .none
-        
+        let post: PostModel = postsList[indexPath.row]
+        cell.singlePost = post
         cell.populateData(post: postsList[indexPath.row])
         
         return cell
@@ -90,4 +91,11 @@ extension HomePostViewController: UITableViewDataSource, UITableViewDelegate{
     //            }
     //        }
     //    }
+}
+
+extension HomePostViewController: PostTableCellDelegate {
+    func openPostView(post: PostModel) {
+        // Navigate to the Post View
+        
+    }
 }

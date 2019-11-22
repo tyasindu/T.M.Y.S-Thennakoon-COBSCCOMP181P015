@@ -17,10 +17,22 @@ class PostTableViewCell: UITableViewCell {
     @IBOutlet weak var postTitle: UITextField!
     @IBOutlet weak var postContent: UITextView!
     
-
+    var delegate: PostTableCellDelegate?
+    var singlePost: PostModel?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        let postImageTapGesture = UITapGestureRecognizer(target: self, action: #selector(postImageClicked))
+        postImage.isUserInteractionEnabled = true
+        postImage.addGestureRecognizer(postImageTapGesture)
+    }
+    
+    @objc func postImageClicked(){
+        if let myDelegate = delegate, let myPost = singlePost {
+            myDelegate.openPostView(post: myPost)
+        }
     }
 
     func populateData(post: PostModel)  {
@@ -70,4 +82,9 @@ class PostTableViewCell: UITableViewCell {
 //        // Configure the view for the selected state
 //    }
 
+}
+
+
+protocol PostTableCellDelegate {
+    func openPostView(post: PostModel)
 }
