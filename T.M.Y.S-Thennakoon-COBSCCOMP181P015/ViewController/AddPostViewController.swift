@@ -97,8 +97,9 @@ class AddPostViewController: UIViewController {
     
     func saveImage(profileImageURL: URL , completion: @escaping ((_ url: URL?) -> ())){
         let db = Firestore.firestore()
+        let userId  = Auth.auth().currentUser?.uid
         
-        db.collection("posts").addDocument(data: ["title":postTitleTextField.text!,"username":usenameTextField.text!,"desc":postContentTextView.text!,"imageUrl":profileImageURL.absoluteString]){
+        db.collection("posts").addDocument(data: ["title":postTitleTextField.text!,"username":usenameTextField.text!,"userid":userId,"desc":postContentTextView.text!,"imageUrl":profileImageURL.absoluteString]){
             (error)in
             if error != nil{
                 let alert = UIAlertController(title: "Notification", message:"error", preferredStyle: UIAlertController.Style.alert)

@@ -39,11 +39,13 @@ class HomePostViewController: UIViewController {
                     let description = document.get("desc") as! String
                     let user = document.get("username") as! String
                     let image_url = document.get("imageUrl") as! String
+                    let userid = document.get("userid") as! String
                     
                     let post = PostModel(
                         title: title,
                         description: description,
                         user: user ,
+                        userid: userid,
                         image_url: image_url
                     )
                     

@@ -14,12 +14,14 @@ struct PostModel: Codable {
     var description : String!
     var user: String!
     var image_url: String!
+    var userid: String!
     
-    init(title: String, description: String,user: String,image_url:String) {
+    init(title: String, description: String,user: String,userid: String,image_url:String) {
         self.title = title
         self.description = description
         self.user=user
         self.image_url=image_url
+        self.userid=userid
     }
     
     

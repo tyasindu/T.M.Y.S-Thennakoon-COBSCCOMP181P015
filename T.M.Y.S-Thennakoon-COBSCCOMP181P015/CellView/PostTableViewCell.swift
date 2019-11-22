@@ -8,6 +8,7 @@
 
 import UIKit
 import Nuke
+import Firebase
 
 class PostTableViewCell: UITableViewCell {
     
@@ -26,12 +27,41 @@ class PostTableViewCell: UITableViewCell {
         
         postTitle.text = post.title
         postContent.text = post.description
+        let userid = post.userid
         //userName.text = post.user
+        
+        let db = Firestore.firestore()
+       
+        
+        db.collection("users").whereField("uid", isEqualTo: userid as Any)
+            .getDocuments() { (querySnapshot, err) in
+                if let err = err {
+                    print("Error getting documents: \(err)")
+                } else {
+                    for document in querySnapshot!.documents {
+                        let profilePhoto = document.get("imageUrl") as! String
+                        
+                        if let url = NSURL (string: profilePhoto ) {
+                            if let data = NSData(contentsOf: url as URL) {
+                                self.userImage.contentMode = UIView.ContentMode.scaleAspectFit
+                                self.userImage.image = UIImage (data: data as Data)
+                                
+                            }
+                        }
+                        
+                    }
+                    
+                }
+        }
+        
+        
+        
+        
         
         let imgUrl = URL(string: post.image_url)
         
         Nuke.loadImage(with: imgUrl!, into: postImage)
-        Nuke.loadImage(with: imgUrl!, into: userImage)
+        //Nuke.loadImage(with: imgUrl!, into: userImage)
         
     }
 //    override func setSelected(_ selected: Bool, animated: Bool) {
