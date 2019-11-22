@@ -7,24 +7,59 @@
 //
 
 import UIKit
+import Firebase
 
 class ProfileViewController: UIViewController {
-
+    
+    @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var firstName: UILabel!
+    @IBOutlet weak var lastName: UILabel!
+    @IBOutlet weak var email: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        fetchData()
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func fetchData() {
+        let db = Firestore.firestore()
+        
+        let user = Auth.auth().currentUser
+        if let user = user {
+            let uid = user.uid
+            db.collection("users").whereField("uid", isEqualTo: uid)
+                .getDocuments() { (querySnapshot, err) in
+                    if let err = err {
+                        print("Error getting documents: \(err)")
+                    } else {
+                        for document in querySnapshot!.documents {
+                            //print("\(document.documentID) => \(document.data())")
+                            let firstName = document.get("firstname")
+                            let lastName = document.get("lastname")
+                            let email = document.get("email")
+                            let profilePhoto = document.get("imageUrl")
+                            
+                            self.firstName.text = firstName as? String
+                            self.lastName.text = lastName as? String
+                            self.email.text = email as? String
+                            
+                            if let url = NSURL (string: profilePhoto as! String) {
+                                if let data = NSData(contentsOf: url as URL) {
+                                    self.profileImage.contentMode = UIView.ContentMode.scaleAspectFit
+                                    self.profileImage.image = UIImage (data: data as Data)
+                                    
+                                }
+                            }
+                        }
+                        
+                    }
+            }
+        }
     }
-    */
-
+    
+    
+    
+    
 }

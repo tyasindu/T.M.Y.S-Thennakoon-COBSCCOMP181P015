@@ -158,6 +158,7 @@ PODS:
     - abseil/base/base_internal
     - abseil/base/config
     - abseil/meta/type_traits
+  - BiometricAuthentication (3.0)
   - BoringSSL-GRPC (0.0.3):
     - BoringSSL-GRPC/Implementation (= 0.0.3)
     - BoringSSL-GRPC/Interface (= 0.0.3)
@@ -290,6 +291,7 @@ PODS:
   - Nuke (7.6.3)
 
 DEPENDENCIES:
+  - BiometricAuthentication
   - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Core
@@ -301,6 +303,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - abseil
+    - BiometricAuthentication
     - BoringSSL-GRPC
     - Firebase
     - FirebaseAnalytics
@@ -326,6 +329,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   abseil: 18063d773f5366ff8736a050fe035a28f635fd27
+  BiometricAuthentication: e39b1a55040d679d5dbc4fa90d76e067c432de7f
   BoringSSL-GRPC: db8764df3204ccea016e1c8dd15d9a9ad63ff318
   Firebase: 458d109512200d1aca2e1b9b6cf7d68a869a4a46
   FirebaseAnalytics: 45f36d9c429fc91d206283900ab75390cd05ee8a
@@ -349,6 +353,6 @@ SPEC CHECKSUMS:
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   Nuke: 44130e95e09463f8773ae4b96b90de1eba6b3350
 
-PODFILE CHECKSUM: fb6e860b3f07643d9dead473c82d7726fe0bc705
+PODFILE CHECKSUM: ad5e8cc8e770cfc0a5185bdf45ddd958ce46b4ed
 
 COCOAPODS: 1.8.4

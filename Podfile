@@ -13,6 +13,7 @@ target 'T.M.Y.S-Thennakoon-COBSCCOMP181P015' do
   pod 'Firebase/Firestore'
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
+  pod 'BiometricAuthentication'
   pod 'Nuke', '~> 7.0'
 
   target 'T.M.Y.S-Thennakoon-COBSCCOMP181P015Tests' do
