@@ -31,9 +31,6 @@ class AddPostViewController: UIViewController {
         imagePicker.allowsEditing = true
         imagePicker.sourceType = .photoLibrary
         imagePicker.delegate = self
-        
-//        self.ref = Database.database().reference()
-        
         postImage.isUserInteractionEnabled = true
     }
     
