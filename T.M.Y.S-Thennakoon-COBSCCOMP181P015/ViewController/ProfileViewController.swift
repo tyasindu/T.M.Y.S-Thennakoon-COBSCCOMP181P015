@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 
+
 class ProfileViewController: UIViewController {
     
     @IBOutlet weak var profileImage: UIImageView!
@@ -22,6 +23,26 @@ class ProfileViewController: UIViewController {
         fetchData()
         
     }
+    
+    
+    @IBAction func logoutUser(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+            transitionToLogin()
+        } catch {
+            
+        }
+    }
+    
+    func transitionToLogin() {
+        
+        let loginViewController = storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.loginViewController) as? LoginViewController
+        
+        view.window?.rootViewController = loginViewController
+        view.window?.makeKeyAndVisible()
+        
+    }
+    
     
     func fetchData() {
         let db = Firestore.firestore()
